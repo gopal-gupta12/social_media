@@ -25,3 +25,15 @@ A high-performance, asynchronous social media backend engine built with **FastAP
    ```bash
    git clone [https://github.com/gopal-gupta12/social_media.git](https://github.com/gopal-gupta12/social_media.git)
    cd social_media
+2. **Set up a virtual environment:**
+   
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+3. **Install dependencies:**
+
+pip install -r requirements.txt
+
+4. **Run the application:**
+
+uvicorn app.main:app --reload
